@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Commissioner", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.main__header {
+  background-image: url("./images/image-hero-desktop.jpg");
+  background-size: cover;
+  height: 308px;
+}
+
+/*# sourceMappingURL=styles.css.map */
