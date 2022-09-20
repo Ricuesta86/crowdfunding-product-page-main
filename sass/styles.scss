@@ -19,8 +19,31 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-.main__header{
-    background-image: url('./images/image-hero-desktop.jpg');
-    background-size: cover;
-    height: 308px;
-}
+
+.main{
+width: 375px;
+margin: auto;
+  &__header{
+      background-image: url('./images/image-hero-mobile.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px; 
+      width: 100%;   
+    } 
+  }
+  .main__header-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .header__menu{
+    display: none;
+  }
+
+  .img-hamburger{
+   text-align: end;
+  }
+
+  .header__menu-hamburger-list{
+    display: none;
+  }
