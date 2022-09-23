@@ -75,16 +75,22 @@ body {
 .section1__buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 35px;
 }
 .section1__buttons-button {
   background-color: hsl(176deg, 50%, 47%);
   border-radius: 35px;
-  padding: 20px;
+  padding: 5px 50px 5px 50px;
+  height: 55px;
   color: white;
   font-weight: 700;
   border: none;
-  margin-right: 10px;
+  margin: 5px 10px;
+}
+.section1__buttons-img {
+  width: 55px;
+  height: 55px;
 }
 .section1__buttons-bookmark {
   display: none;

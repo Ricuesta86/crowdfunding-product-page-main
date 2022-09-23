@@ -75,18 +75,23 @@ background-color: variables.$LigthGray;
   &__buttons{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 35px;
     &-button{
       background-color: variables.$ModerateCyan;
       border-radius: 35px;
-      padding: 20px;
+      padding: 5px 50px 5px 50px;
+      height: 55px;
       color: white;
       font-weight: 700;
       border: none;
       // padding: 15px;
-      margin-right: 10px;
+      margin: 5px 10px;
     }
-
+    &-img{
+      width: 55px;
+      height: 55px;
+    }
     &-bookmark{
       display: none;
     }
