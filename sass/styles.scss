@@ -40,14 +40,21 @@ p{
   margin: 25px;
   font-size: 14px;
   color: variables.$DarkGray;
+  line-height: 25px;
 }
 
 .border{
   background-color: white;
-  border: 2px solid #f5f5f5;
+  border: 2px solid variables.$ModerateGray;
   border-radius: 12px;
   width: 90%;
   margin: 20px auto 20px auto;
+}
+
+.pronunciado{
+  font-size: 2em;
+  font-weight: 700;
+  color: variables.$Black;
 }
 
 .main{
@@ -61,7 +68,8 @@ background-color: variables.$LigthGray;
       height: 400px; 
       width: 100%;   
     } 
-  }
+}
+
   .main__header-navbar{
     display: flex;
     justify-content: space-between;
@@ -107,17 +115,7 @@ background-color: variables.$LigthGray;
     justify-content: center;
     align-items: center;
     margin-bottom: 35px;
-    &-button{
-      background-color: variables.$ModerateCyan;
-      border-radius: 35px;
-      padding: 5px 50px 5px 50px;
-      height: 55px;
-      color: white;
-      font-weight: 700;
-      border: none;
-      // padding: 15px;
-      margin: 5px 10px;
-    }
+
     &-img{
       width: 55px;
       height: 55px;
@@ -128,4 +126,47 @@ background-color: variables.$LigthGray;
   }
 
 
+  
+}
+
+
+
+.section2{
+  padding: 0 0 15px 0;
+  &__h1{
+    text-align: center;
+    margin: 40px 0 0px 0;
+  }
+  &__p{
+    text-align: center;
+    margin:15px 0 0 0;
+  }
+  &__line{
+    width: 80px;
+    margin: 20px auto ;
+    border-bottom: 1px solid variables.$ModerateGray;
+  }
+  &__barra{
+    height: 15px;
+    margin: 25px;
+    // border: 1px solid variables.$ModerateGray;
+    border-radius: 15px;
+    background-color: variables.$ModerateGray;
+  }
+  &__progres{
+    width: 75%;
+    height: 15px;
+    margin: -1px 0 0 0;
+    // border: 1px solid variables.$ModerateGray;
+    border-radius: 15px;
+    background-color: variables.$ModerateCyan;
+  }
+}
+
+.section3{
+  // margin: 40px 0;
+  padding: 40px 0;
+  &__h3{
+    margin: 0 25px;
+  }
 }
