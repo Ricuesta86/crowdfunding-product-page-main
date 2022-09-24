@@ -206,8 +206,40 @@ p {
   }
 }
 
-// .section4.disable{
-//   // &-button{
-//   //   background-color: variables.$DarkGray;
-//   // }
-// }
+.modal-thanks{
+  display: none !important;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: variables.$Black, $alpha: 0.4);
+
+  margin: 0 -8px;
+  &__container{
+    position: relative;
+    width: 325px;
+    background-color: white;
+    z-index: 999;
+    padding: 30px 0;
+    border-radius: 15px;
+  }
+  &__img{
+    display: flex;
+    margin: 0 auto 30px;
+  }
+  &__h3{
+    text-align: center;
+  }
+  &__p{
+    text-align: center;
+  }
+  &__button{   
+    display: flex;
+    justify-content: center;
+  }
+}

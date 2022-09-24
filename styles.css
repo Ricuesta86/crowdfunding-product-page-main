@@ -191,4 +191,40 @@ p {
   cursor: default;
 }
 
+.modal-thanks {
+  display: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 -8px;
+}
+.modal-thanks__container {
+  position: relative;
+  width: 325px;
+  background-color: white;
+  z-index: 999;
+  padding: 30px 0;
+  border-radius: 15px;
+}
+.modal-thanks__img {
+  display: flex;
+  margin: 0 auto 30px;
+}
+.modal-thanks__h3 {
+  text-align: center;
+}
+.modal-thanks__p {
+  text-align: center;
+}
+.modal-thanks__button {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
