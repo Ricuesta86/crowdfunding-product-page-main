@@ -44,7 +44,7 @@ p {
 
 .border {
   background-color: white;
-  border: 2px solid hsl(0deg, 0%, 68%);
+  border: 2px solid hsl(0deg, 0%, 98%);
   border-radius: 12px;
   width: 90%;
   margin: 20px auto 20px auto;
@@ -137,13 +137,13 @@ p {
 .section2__line {
   width: 80px;
   margin: 20px auto;
-  border-bottom: 1px solid hsl(0deg, 0%, 68%);
+  border-bottom: 1px solid hsl(0deg, 0%, 88%);
 }
 .section2__barra {
   height: 15px;
   margin: 25px;
   border-radius: 15px;
-  background-color: hsl(0deg, 0%, 68%);
+  background-color: hsl(0deg, 0%, 88%);
 }
 .section2__progres {
   width: 75%;
@@ -158,6 +158,37 @@ p {
 }
 .section3__h3 {
   margin: 0 25px;
+}
+
+.section4__group-h4 {
+  margin: 25px 25px 0;
+}
+.section4__group-p {
+  margin: 0 25px;
+  color: hsl(176deg, 50%, 47%);
+  font-weight: 700;
+}
+.section4__group-select-span {
+  margin: 0 10px 0 0;
+}
+.section4__group-select-p {
+  display: flex;
+  align-items: center;
+  font-size: 17;
+  font-weight: 500;
+}
+.section4__group-button {
+  margin: 0 25px 25px;
+}
+.section4.border {
+  border: 1px solid hsl(0deg, 0%, 88%);
+}
+.section4.disable {
+  opacity: 0.4;
+}
+.section4.disable .section4__group-button {
+  background-color: hsl(0deg, 0%, 48%);
+  cursor: default;
 }
 
 /*# sourceMappingURL=styles.css.map */
